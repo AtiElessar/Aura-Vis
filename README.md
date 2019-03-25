@@ -37,6 +37,6 @@ Run AuraVis.py (by command line, IDLE etc.)
     A grant update on DB to B; 
     A revoke update(att1) on DB from B restrict;
     ```
-    In the statements, A grants update access on all attributes to B but only revokes on one attribute. The program will not be able to handle such cases for any combination of grant and/or revoke statements. 
+    In the above statements, A grants update access on all attributes to B but only revokes on one attribute. The program will not be able to handle such cases for any combination of grant and/or revoke statements. 
     Therefore, if you are granting/revoking over only one attribute (or the entire relation), please be consistent.
 3. The code is case-insensitive for user, relation and attribute names.

@@ -16,12 +16,12 @@ Run AuraVis.py (by command line, IDLE etc.)
 
     Your input file should just be a bunch of these semi-colon seperated statements (may or may not be on different lines).
     Example - 
-    `A grant select on DB to B,C;
+    ```    
+    A grant select on DB to B,C;
     B grant select on DB to D,E;
     D grant select on DB to F,G;
     C grant select on DB to H;
-    A revoke select on DB from B restrict;`
-
+    A revoke select on DB from B restrict;
 2. After entering the input file path, you will be asked the details of the graph you want to see. 
     * Database name - The name of the database
     * Priviledge type - The priviledge types are select, update etc.
